@@ -3,6 +3,6 @@ services:
   chat:
     image: chat-app
     ports:
-      - "3000:3000"
+      - "3700:3700"
     environment:
       - NODE_ENV=production
